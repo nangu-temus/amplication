@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Amplication-order
+  description: 
+  labels:
+    vendor: "amplication"
+  annotations:
+    github.com/team-slug: "backstage/maintainers"
+    github.com/project-slug: "backstage/backstage"
+  tags:
+    - ".NET"
+  links:
+    - url: https://server.amplication.com/cm2vpd5f202q0qkmz1ci575km
+      title: Amplication Platform
+spec:
+  type: service
+  lifecycle: production
+  owner: development
